@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            dddddd: 'blue' ,
+            ggg: 'green' ,
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <h1 class="text-dddddd">
+    Hello world!
+  </h1>
+  <div>
+    <h1 className="mb-2 text-8xl" >The paragraph 1</h1>
+    <h2 className="mb-1">The paragraph 2</h2>
+    <p>The paragraph 3 let assume, Just to make a diff tho </p>
+  </div>
+  <div>
+    <section>
+        <option value="">Just number 1</option>
+        <option value="">Just number 2</option>
+    </section>
+  </div>
+  <div>
+    <input type="checkbox" id="checkbox">
+    <label htmlFor="checkbox">checkbox</label>
+  </div>
+</body>
+</html>
